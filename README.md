@@ -8,8 +8,8 @@ Guia mobile/PWA da **Vênus casa de Praia - PB**, com indicações gratuitas de 
 - A imagem da mascote também é usada nos ícones do PWA.
 
 ## Conteúdo
-- 53 lugares.
-- **53/53** com fonte oficial, site ou rede social cadastrada.
+- 54 lugares.
+- **54/54** com fonte oficial, site ou rede social cadastrada.
 - Filtros por cidade e categoria.
 - Busca por nome, perfil, região e descrição.
 - Favoritos salvos no próprio aparelho.

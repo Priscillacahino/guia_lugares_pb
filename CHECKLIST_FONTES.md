@@ -1,9 +1,9 @@
 # Checklist de fontes e redes sociais
 
-Auditoria final do Guia Vênus.
+Auditoria atual do Guia Vênus.
 
-- Total de lugares: **53**
-- Com fonte oficial, site ou rede social cadastrada: **53/53**
+- Total de lugares: **54**
+- Com fonte oficial, site ou rede social cadastrada: **54/54**
 - Pendências de fonte/rede social: **0**
 
 | # | Lugar | Cidade | Fonte/rede implementada | Tipo |
@@ -46,7 +46,7 @@ Auditoria final do Guia Vênus.
 | 36 | Praia de Jacumã | Conde | [conde.pb.gov.br](https://conde.pb.gov.br/) | Prefeitura de Conde |
 | 37 | Praia do Amor | Conde | [conde.pb.gov.br](https://conde.pb.gov.br/) | Prefeitura de Conde |
 | 38 | Falésias de Tabatinga | Conde | [conde.pb.gov.br](https://conde.pb.gov.br/) | Prefeitura de Conde |
-| 39 | Restaurante Sol e Mar na praia de Coqueirinho | Conde | [@quiosquesolemarcoqueirinho?igshid=OGQ2MjdiOTE=](https://instagram.com/quiosquesolemarcoqueirinho?igshid=OGQ2MjdiOTE=) | Instagram |
+| 39 | Restaurante Sol e Mar na praia de Coqueirinho | Conde | [@quiosquesolemarcoqueirinho](https://instagram.com/quiosquesolemarcoqueirinho?igshid=OGQ2MjdiOTE=) | Instagram |
 | 40 | Trattoria Casa Rustica | Conde | [@trattoriacasarustica1](https://www.instagram.com/trattoriacasarustica1/) | Instagram |
 | 41 | Churrascaria Jacumã Grill | Conde | [@jacumagrill](https://www.instagram.com/jacumagrill/) | Instagram |
 | 42 | Burger do Rôla | Conde | [@burgerdorola](https://www.instagram.com/burgerdorola/) | Instagram |
@@ -59,13 +59,13 @@ Auditoria final do Guia Vênus.
 | 49 | Areia Vermelha | Cabedelo | [cabedelo.pb.gov.br](https://cabedelo.pb.gov.br/) | Prefeitura de Cabedelo |
 | 50 | Praia do Jacaré | Cabedelo | [turismo.joaopessoa.pb.gov.br](https://turismo.joaopessoa.pb.gov.br/o-que-fazer/pontos-turisticos/praias-e-piscinas-naturais/por-do-jacare/) | Turismo oficial |
 | 51 | Gigante do Mar Beach | Cabedelo | [@gigantedomaroficial](https://www.instagram.com/gigantedomaroficial/) | Instagram |
-| 53 | Novo Oriente Intermares | Cabedelo | [@novo_oriente](https://www.instagram.com/novo_oriente/) | Instagram |
+| 52 | Novo Oriente Intermares | Cabedelo | [@novo_oriente](https://www.instagram.com/novo_oriente/) | Instagram |
+| 53 | Peixada do Abílio | Conde | [@peixadadoabilio083](https://www.instagram.com/peixadadoabilio083/) | Instagram |
+| 54 | Acarajé da Edna JP | João Pessoa | [@acarajedaednajp](https://www.instagram.com/acarajedaednajp/) | Instagram |
 
 ## Observações da revisão
 
-- As redes `@loca.gastrobar`, `@trattoriacasarustica1` e `@novo_oriente` foram confirmadas pela responsável pelo guia antes da inclusão.
 - Para atrativos públicos, foram priorizadas páginas de turismo e prefeituras quando já existiam na base.
 - Para estabelecimentos privados, foram priorizados Instagram/site do próprio local quando disponíveis.
 - Google Maps permanece como botão separado de localização e não substitui a fonte/rede social do lugar.
-
-- **Peixada do Abílio — Conde** — Instagram: [@peixadadoabilio083](https://www.instagram.com/peixadadoabilio083/) • [Google Maps](https://www.google.com/maps/place/Peixada+Do+Ab%C3%ADlio/data=!4m2!3m1!1s0x0:0xf668103053fc3b52?sa=X&ved=1t:2428&ictx=111)
+- **Acarajé da Edna JP** foi incluído com o Instagram informado `@acarajedaednajp` e localização por busca direta no Google Maps.
