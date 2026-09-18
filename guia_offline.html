@@ -57,7 +57,12 @@ h1{font-size:25px;line-height:1.15;margin:6px 0 5px}
 .toggle{display:flex;justify-content:space-between;align-items:center;padding:10px 14px 12px;cursor:pointer;color:var(--accent);font-size:13px;font-weight:750}
 .empty{text-align:center;background:white;border:1px dashed #bccaca;border-radius:16px;padding:30px 18px;color:var(--muted)}
 .notice{background:#fff7e7;border:1px solid #ead7aa;border-radius:13px;padding:11px 12px;margin:0 0 12px;font-size:12px;line-height:1.45;color:#69572f}
-.footer{text-align:center;color:var(--muted);font-size:12px;padding:20px 10px 6px}
+.footer{text-align:center;color:var(--muted);font-size:12px;padding:24px 4px 6px}
+.footer-brand{padding:0 10px 16px}
+.footer-warning{max-width:760px;margin:0 auto;padding:14px 14px;background:#fff7e7;border:1px solid #ead7aa;border-radius:14px;color:#69572f;line-height:1.5;text-align:left}
+.footer-warning strong{color:#5c491f}
+.footer-warning p{margin:7px 0 0}
+.footer-links-note{max-width:760px;margin:10px auto 0;padding:0 12px;font-size:11px;line-height:1.45;color:var(--muted)}
 .install{display:none;position:fixed;bottom:14px;left:50%;transform:translateX(-50%);z-index:30;border:0;border-radius:999px;padding:11px 16px;background:#163e46;color:white;font-weight:750;box-shadow:0 8px 28px rgba(0,0,0,.18);cursor:pointer}
 @media(min-width:700px){
   h1{font-size:31px}
@@ -99,9 +104,6 @@ h1{font-size:25px;line-height:1.15;margin:6px 0 5px}
 </header>
 
 <main class="main">
-  <div class="notice">
-    As informações são um guia de consulta. Horários, funcionamento, maré, acesso e disponibilidade podem mudar; confirme no canal oficial antes de sair.
-  </div>
 
   <section class="filters" aria-label="Filtros">
     <div class="select-wrap">
@@ -123,9 +125,16 @@ h1{font-size:25px;line-height:1.15;margin:6px 0 5px}
   <section id="cards" class="cards" aria-live="polite"></section>
 
   <div class="footer">
-    Uma seleção da <strong>Casa de Praia Vênus</strong> • João Pessoa, Cabedelo e Conde — PB<br>
-    <a href="https://www.instagram.com/venuscasadepraiapb/" target="_blank" rel="noopener">@venuscasadepraiapb</a><br>
-    Links abrem fontes oficiais, redes sociais ou serviços externos quando disponíveis.
+    <div class="footer-brand">
+      Uma seleção da <strong>Casa de Praia Vênus</strong> • João Pessoa, Cabedelo e Conde — PB<br>
+      <a href="https://www.instagram.com/venuscasadepraiapb/" target="_blank" rel="noopener">@venuscasadepraiapb</a>
+    </div>
+  <div class="footer-warning">
+    <strong>⚠️ Aviso</strong>
+    <p>Este guia funciona como um <strong>guia de indicações</strong>. A inclusão de um estabelecimento não representa vínculo comercial, publicidade contratada ou garantia dos serviços oferecidos.</p>
+    <p>Informações como horários, valores, programação, condições climáticas, marés e disponibilidade podem mudar. Sempre consulte o canal oficial antes da visita.</p>
+  </div>
+  <div class="footer-links-note">Os links abrem os respectivos serviços, fontes oficiais ou redes sociais quando disponíveis.</div>
   </div>
 </main>
 
