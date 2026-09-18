@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0f5c66">
+  <meta name="description" content="Guia gratuito de lugares em João Pessoa, Cabedelo e Conde, com praias, restaurantes, bares, passeios e pontos turísticos.">
+  <title>Guia de Lugares — João Pessoa, Cabedelo e Conde</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Guia gratuito</div>
+    <h1>João Pessoa, Cabedelo & Conde</h1>
+    <p class="subtitle">Praias, gastronomia, passeios e lugares para conhecer.</p>
+    <div class="toolbar">
+      <div class="search">
+        <span aria-hidden="true">🔎</span>
+        <input id="search" type="search" placeholder="Buscar praia, restaurante, passeio..." autocomplete="off">
+        <button id="clear" title="Limpar filtros">✕</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+  <div class="notice">
+    As informações são um guia de consulta. Horários, funcionamento, maré, acesso e disponibilidade podem mudar; confirme no canal oficial antes de sair.
+  </div>
+
+  <section class="filters" aria-label="Filtros">
+    <div class="select-wrap">
+      <label for="cidade">Cidade</label>
+      <select id="cidade"></select>
+    </div>
+    <div class="select-wrap">
+      <label for="categoria">Categoria</label>
+      <select id="categoria"></select>
+    </div>
+  </section>
+
+  <div class="actions">
+    <button id="favFilter" class="pill">★ Meus favoritos</button>
+    <button class="pill" onclick="clearAll()">Limpar filtros</button>
+  </div>
+
+  <div id="count" class="count"></div>
+  <section id="cards" class="cards" aria-live="polite"></section>
+
+  <div class="footer">
+    Guia independente de indicações • João Pessoa, Cabedelo e Conde — PB<br>
+    Links abrem os respectivos serviços externos quando disponíveis.
+  </div>
+</main>
+
+<button id="install" class="install">＋ Instalar guia no celular</button>
+
+<script src="dados.js"></script>
+<script src="app.js"></script>
+<script>
+if("serviceWorker" in navigator){
+  window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
+}
+</script>
+</body>
+</html>
