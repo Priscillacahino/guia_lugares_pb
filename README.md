@@ -1,24 +1,37 @@
-# Guia de Lugares — João Pessoa, Cabedelo e Conde
+# Guia Vênus — João Pessoa, Cabedelo e Conde
 
-Versão mobile e independente, sem vínculo com marca ou hospedagem específica.
+Guia mobile/PWA da **Casa de Praia Vênus**, com indicações gratuitas de praias, gastronomia, passeios e pontos turísticos.
+
+## Identidade
+- Perfil: [@venuscasadepraiapb](https://www.instagram.com/venuscasadepraiapb/)
+- Mascote: gatinha da Casa de Praia Vênus, exibida discretamente no canto superior do guia.
+- A imagem da mascote também é usada nos ícones do PWA.
 
 ## Conteúdo
-- 52 lugares importados da planilha-base.
+- 52 lugares.
+- **52/52** com fonte oficial, site ou rede social cadastrada.
 - Filtros por cidade e categoria.
 - Busca por nome, perfil, região e descrição.
 - Favoritos salvos no próprio aparelho.
-- Links para Google Maps e site/Instagram quando disponíveis.
+- Links para Google Maps e para a fonte/rede social de cada lugar.
 - Interface responsiva para celular.
-- PWA: após o primeiro acesso online, o conteúdo principal fica disponível offline.
-- `guia_offline.html`: arquivo único que pode ser salvo e aberto diretamente no celular, sem internet.
+- PWA com cache do conteúdo principal para uso offline após o primeiro acesso.
 
-## Arquivos
-- `index.html` — versão principal para publicar online.
-- `style.css`, `app.js`, `dados.js` — interface e dados.
-- `manifest.webmanifest`, `sw.js`, `icon-*.png` — instalação/offline.
-- `guia_offline.html` — versão portátil offline.
-- `lugares.csv` — dados exportados para manutenção.
+## Auditoria
+Veja [`CHECKLIST_FONTES.md`](CHECKLIST_FONTES.md) para a relação completa de fontes e redes sociais.
 
-## Publicação em rede social
-Perfis sociais normalmente não hospedam arquivos HTML. O fluxo recomendado é publicar esta pasta em um endereço HTTPS (por exemplo, Vercel/GitHub Pages) e colocar esse único link na bio.
+## Publicação
+O projeto é estático e está preparado para Vercel. Basta enviar os arquivos para a branch `main`; a Vercel conectada ao repositório fará um novo deploy automaticamente.
 
+## Arquivos principais
+- `index.html`
+- `style.css`
+- `app.js`
+- `dados.js`
+- `manifest.webmanifest`
+- `sw.js`
+- `venus-gata.jpeg`
+- `icon-192.png`
+- `icon-512.png`
+- `lugares.csv`
+- `CHECKLIST_FONTES.md`
