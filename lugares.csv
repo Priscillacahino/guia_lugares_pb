@@ -1,4 +1,4 @@
-﻿id;cidade;regiao;lugar;categoria;perfil;descricao;maps;site;tipoLink
+id;cidade;regiao;lugar;categoria;perfil;descricao;maps;site;tipoLink
 1;João Pessoa;Centro da cidade;Centro Histórico de João Pessoa;Ponto turístico;Centro histórico;Conjunto histórico para caminhar e conhecer a arquitetura colonial.;https://www.google.com/maps/search/?api=1&query=Centro Histórico de João Pessoa PB;https://turismo.joaopessoa.pb.gov.br/o-que-fazer/pontos-turisticos/monumentos-historicos/;Turismo oficial
 2;João Pessoa;Centro da cidade;Casa da Pólvora;Ponto turístico;História/cultura;Monumento histórico na Ladeira São Francisco.;https://www.google.com/maps/search/?api=1&query=Casa da Pólvora João Pessoa PB;https://turismo.joaopessoa.pb.gov.br/o-que-fazer/pontos-turisticos/monumentos-historicos/;Turismo oficial
 3;João Pessoa;Centro da cidade;Hotel Globo;Ponto turístico;História/pôr do sol;Galeria histórica com vista para o Rio Sanhauá e pôr do sol.;https://www.google.com/maps/search/?api=1&query=Hotel Globo João Pessoa PB;https://turismo.joaopessoa.pb.gov.br/o-que-fazer/pontos-turisticos/monumentos-historicos/hotel-globo/;Turismo oficial
