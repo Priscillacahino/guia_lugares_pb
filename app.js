@@ -46,9 +46,9 @@ function card(p){
         <h2>${escapeHtml(p.lugar)}</h2>
         <p class="profile">${escapeHtml(p.perfil || p.regiao)}</p>
       </div>
-      <button class="fav ${fav?"on":""}" aria-label="Favoritar" onclick="toggleFav(${p.id},event)">${fav?"★":"☆"}</button>
+      <button class="fav ${fav?"on":""}" aria-label="${fav?"Remover dos favoritos":"Adicionar aos favoritos"}" aria-pressed="${fav}" onclick="toggleFav(${p.id},event)">${fav?"★":"☆"}</button>
     </div>
-    <div class="details">
+  <div class="details" id="details-${p.id}">
       <p class="desc">${escapeHtml(desc)}</p>
       <p class="meta">📍 ${escapeHtml(p.regiao)}</p>
       ${tipo}
@@ -57,7 +57,7 @@ function card(p){
         ${siteOk ? `<a class="btn" href="${attr(p.site)}" target="_blank" rel="noopener">↗ ${escapeHtml(labelSite(p.site,p.tipoLink))}</a>` : `<span class="btn disabled">↗ Sem link</span>`}
       </div>
     </div>
-    <div class="toggle" onclick="toggleCard(${p.id})"><span>Ver detalhes</span><span>⌄</span></div>
+   <button class="toggle" type="button" aria-expanded="false" aria-controls="details-${p.id}" onclick="toggleCard(${p.id})"><span>Ver detalhes</span><span aria-hidden="true">⌄</span></button>
   </article>`;
 }
 function escapeHtml(s){ return (s||"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[m])); }
@@ -77,7 +77,9 @@ function toggleCard(id){
   c.classList.toggle("open");
   const t = c.querySelector(".toggle span:first-child");
   const a = c.querySelector(".toggle span:last-child");
+  const toggle = c.querySelector(".toggle");
   const open = c.classList.contains("open");
+  toggle?.setAttribute("aria-expanded", String(open));
   t.textContent = open ? "Ocultar detalhes" : "Ver detalhes";
   a.textContent = open ? "⌃" : "⌄";
 }
