@@ -149,20 +149,23 @@ As métricas de acesso são independentes dos favoritos armazenados localmente n
 
 ---
 
-🔎 Fontes das informações
+## 🔎 Fontes das informações
 
-Sempre que possível, são priorizadas:
+Sempre que possível, as informações do Guia são conferidas por meio de:
 
 1. páginas oficiais de turismo;
-2. páginas de prefeituras;
-3. sites oficiais;
+2. sites de prefeituras e outros órgãos públicos;
+3. sites oficiais dos locais indicados;
 4. redes sociais dos próprios estabelecimentos.
+
+Essas fontes ajudam a manter as informações mais confiáveis e facilitam a consulta antes da visita.
 
 A relação das fontes utilizadas pode ser consultada em:
 
-""CHECKLIST_FONTES.md"" (CHECKLIST_FONTES.md)
+[📋 CHECKLIST_FONTES.md](CHECKLIST_FONTES.md)
 
 ---
+
 
 ⚠️ Importante
 
@@ -176,18 +179,24 @@ Antes da visita, consulte sempre o canal oficial do estabelecimento ou atração
 
 ---
 
-📂 Arquivos principais
+<details>
+<summary><strong>📂 Estrutura técnica do projeto</strong></summary>
 
-- "index.html" — estrutura principal do Guia;
-- "style.css" — identidade visual e responsividade;
-- "app.js" — busca, filtros, favoritos e interações;
-- "dados.js" — base de lugares do Guia;
-- "manifest.webmanifest" — configuração do PWA;
-- "sw.js" — funcionamento do cache/offline;
-- "lugares.csv" — dados auxiliares;
-- "CHECKLIST_FONTES.md" — auditoria das fontes;
-- "venus-gata.jpeg" — identidade visual da Vênus;
-- arquivos de ícones do aplicativo.
+O Guia utiliza uma estrutura simples e leve:
+
+* `index.html` — estrutura principal;
+* `style.css` — identidade visual e responsividade;
+* `app.js` — busca, filtros, favoritos e interações;
+* `dados.js` — base de lugares;
+* `manifest.webmanifest` — configuração do PWA;
+* `sw.js` — cache e funcionamento offline;
+* `lugares.csv` — dados auxiliares;
+* `CHECKLIST_FONTES.md` — auditoria das fontes;
+* `venus-gata.jpeg` — identidade visual da Vênus;
+* ícones utilizados pelo aplicativo.
+
+</details>
+
 
 ---
 
