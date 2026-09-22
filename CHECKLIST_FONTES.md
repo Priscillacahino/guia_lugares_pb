@@ -2,8 +2,8 @@
 
 Auditoria atual do Guia Vênus.
 
-- Total de lugares: **54**
-- Com fonte oficial, site ou rede social cadastrada: **54/54**
+- Total de lugares: **55**
+- Com fonte oficial, site ou rede social cadastrada: **55/55**
 - Pendências de fonte/rede social: **0**
 
 | # | Lugar | Cidade | Fonte/rede implementada | Tipo |
@@ -62,6 +62,7 @@ Auditoria atual do Guia Vênus.
 | 52 | Novo Oriente Intermares | Cabedelo | [@novo_oriente](https://www.instagram.com/novo_oriente/) | Instagram |
 | 53 | Peixada do Abílio | Conde | [@peixadadoabilio083](https://www.instagram.com/peixadadoabilio083/) | Instagram |
 | 54 | Acarajé da Edna JP | João Pessoa | [@acarajedaednajp](https://www.instagram.com/acarajedaednajp/) | Instagram |
+| 55 | Havana Gastrobar | João Pessoa | [@havanagastrobar](https://www.instagram.com/havanagastrobar/) | Instagram |
 
 ## Observações da revisão
 
@@ -69,3 +70,4 @@ Auditoria atual do Guia Vênus.
 - Para estabelecimentos privados, foram priorizados Instagram/site do próprio local quando disponíveis.
 - Google Maps permanece como botão separado de localização e não substitui a fonte/rede social do lugar.
 - **Acarajé da Edna JP** foi incluído com o Instagram informado `@acarajedaednajp` e localização por busca direta no Google Maps.
+- **Havana Gastrobar** foi incluído com o Instagram oficial cadastrado no Guia e localização por busca direta no Google Maps.
