@@ -1,4 +1,3 @@
-
 let deferredPrompt;
 const state = { cidade:"Todas", categoria:"Todas", busca:"", favoritos:false };
 const favs = new Set(JSON.parse(localStorage.getItem("guiaFavoritos")||"[]"));
@@ -69,6 +68,7 @@ function render(){
   el("cards").innerHTML = items.length ? items.map(card).join("") :
     `<div class="empty">Nenhum lugar encontrado com esses filtros.</div>`;
   el("favFilter").classList.toggle("active", state.favoritos);
+  el("favFilter").setAttribute("aria-pressed", String(state.favoritos));
 }
 
 function toggleCard(id){

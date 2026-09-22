@@ -23,8 +23,18 @@
     <div class="toolbar">
       <div class="search">
         <span aria-hidden="true">🔎</span>
-        <input id="search" type="search" placeholder="Buscar praia, restaurante, passeio..." autocomplete="off">
-        <button id="clear" title="Limpar filtros">✕</button>
+        <input
+          id="search"
+          type="search"
+          placeholder="Buscar praia, restaurante, passeio..."
+          autocomplete="off"
+          aria-label="Buscar lugares"
+        >
+        <button
+          id="clear"
+          title="Limpar filtros"
+          aria-label="Limpar busca e filtros"
+        >✕</button>
       </div>
     </div>
   </div>
@@ -44,7 +54,7 @@
   </section>
 
   <div class="actions">
-    <button id="favFilter" class="pill">★ Meus favoritos</button>
+    <button id="favFilter" class="pill" aria-pressed="false">★ Meus favoritos</button>
     <button class="pill" onclick="clearAll()">Limpar filtros</button>
   </div>
 
