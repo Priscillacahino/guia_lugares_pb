@@ -2,13 +2,21 @@
 
 «Um guia pessoal de lugares que eu conheço e indicaria para amigos e visitantes que vêm conhecer a Paraíba.»
 
+<p align="center">
+  <a href="https://guia-lugares-pb.vercel.app/">
+    <strong>🌐 Acessar o Guia Vênus</strong>
+  </a>
+</p>---
+
 💡 Como surgiu o Guia
 
 O Guia Vênus nasceu de uma situação simples: amigos de outros estados que vinham conhecer João Pessoa frequentemente me perguntavam onde ir, quais praias conhecer, onde comer e quais lugares eu indicaria durante a viagem.
 
 Em vez de repetir as mesmas indicações individualmente, resolvi reunir em um único lugar alguns dos cantos que conheço e considero interessantes.
 
-A proposta não é criar um catálogo completo de turismo. O Guia é uma curadoria pessoal de lugares que eu conheço e indicaria para amigos e visitantes.
+A proposta não é criar um catálogo completo de turismo.
+
+O Guia é uma curadoria pessoal de lugares que eu conheço e indicaria para amigos e visitantes.
 
 Atualmente, a seleção reúne lugares em:
 
@@ -44,6 +52,7 @@ Atualmente é possível:
 - 📍 filtrar por cidade;
 - 🏖️ filtrar por categoria;
 - ⭐ salvar lugares favoritos;
+- 📖 visualizar detalhes de cada indicação;
 - 🗺️ abrir a localização diretamente no Google Maps;
 - 🔗 acessar sites, fontes oficiais ou redes sociais;
 - 📲 instalar o Guia como PWA em dispositivos compatíveis;
@@ -62,6 +71,7 @@ Sempre que possível, cada indicação possui:
 - localização;
 - breve descrição;
 - categoria;
+- perfil da indicação;
 - acesso ao Google Maps;
 - site, fonte oficial ou rede social.
 
@@ -71,25 +81,35 @@ A seleção pode continuar crescendo conforme novos lugares forem conhecidos, vi
 
 📸 Conheça o Guia
 
-Esta seção será utilizada para apresentar imagens reais do aplicativo.
+O Guia foi desenvolvido pensando principalmente na utilização pelo celular.
 
 📱 Tela inicial
 
-Imagem demonstrativa em preparação.
+A tela inicial reúne busca, filtros por cidade e categoria, favoritos e acesso às indicações cadastradas.
+
+<p align="center">
+  <img src="docs/imagens/guia-tela-inicial.png" width="320" alt="Tela inicial do Guia Vênus">
+</p>---
 
 🔎 Busca e filtros
 
-Imagem demonstrativa em preparação.
+É possível combinar cidade e categoria para encontrar rapidamente os lugares desejados.
 
-📍 Detalhes dos lugares
+No exemplo abaixo, o Guia apresenta resultados relacionados às praias de Conde.
 
-Imagem demonstrativa em preparação.
+<p align="center">
+  <img src="docs/imagens/guia-busca-filtros.png" width="320" alt="Busca e filtros do Guia Vênus">
+</p>---
 
-🎬 Demonstração
+📍 Detalhes, favoritos e localização
 
-Também está prevista uma pequena demonstração em GIF mostrando a utilização do Guia pelo celular.
+Cada indicação pode apresentar descrição, localização, fonte oficial ou rede social.
 
----
+Também é possível marcar lugares como favoritos e abrir a localização diretamente no Google Maps.
+
+<p align="center">
+  <img src="docs/imagens/guia-detalhes-favorito.png" width="320" alt="Detalhes de um lugar no Guia Vênus">
+</p>---
 
 🌐 Aplicativo leve e instalável
 
@@ -99,6 +119,9 @@ Isso permite que ele funcione diretamente pelo navegador e, em dispositivos comp
 
 A proposta foi manter o projeto simples e leve, sem exigir publicação em uma loja de aplicativos.
 
+🔗 Acesse:
+"guia-lugares-pb.vercel.app" (https://guia-lugares-pb.vercel.app/)
+
 ---
 
 📴 Funcionamento offline
@@ -107,7 +130,14 @@ Após o primeiro acesso, os principais arquivos do Guia podem ficar armazenados 
 
 Isso permite que parte do conteúdo continue disponível mesmo quando a conexão com a internet estiver limitada ou indisponível.
 
-Recursos externos, como Google Maps, Instagram e sites dos estabelecimentos, continuam dependendo de conexão com a internet.
+Recursos externos, como:
+
+- Google Maps;
+- Instagram;
+- sites oficiais;
+- outras fontes externas;
+
+continuam dependendo de conexão com a internet.
 
 ---
 
@@ -120,13 +150,32 @@ Isso significa que:
 - não é necessário criar uma conta;
 - nenhum cadastro é exigido;
 - os favoritos permanecem no navegador utilizado;
-- os favoritos não são sincronizados entre diferentes aparelhos.
+- os favoritos não são sincronizados entre aparelhos diferentes.
+
+Essa escolha mantém o Guia simples e evita a necessidade de armazenar dados pessoais dos usuários.
+
+---
+
+♿ Acessibilidade
+
+O projeto também recebe melhorias voltadas à acessibilidade.
+
+Entre os recursos implementados estão:
+
+- identificação adequada de campos de formulário;
+- navegação por teclado;
+- indicação do estado dos favoritos;
+- botão acessível para abrir e fechar os detalhes;
+- foco visual durante a navegação por teclado;
+- suporte à preferência de redução de movimento do dispositivo.
+
+As melhorias de acessibilidade continuam fazendo parte da evolução do projeto.
 
 ---
 
 🛠️ Tecnologias utilizadas
 
-O projeto utiliza uma estrutura propositalmente simples:
+O projeto utiliza uma estrutura propositalmente simples e leve:
 
 - HTML5
 - CSS3
@@ -137,7 +186,7 @@ O projeto utiliza uma estrutura propositalmente simples:
 - LocalStorage
 - Vercel
 
-A escolha por uma arquitetura leve faz parte da proposta do projeto.
+A escolha por essa arquitetura faz parte da própria proposta do Guia: oferecer uma experiência rápida e funcional sem exigir uma estrutura complexa para uma necessidade simples.
 
 ---
 
@@ -145,11 +194,11 @@ A escolha por uma arquitetura leve faz parte da proposta do projeto.
 
 O projeto possui integração com Vercel Web Analytics para acompanhamento da utilização do Guia.
 
-As métricas de acesso são independentes dos favoritos armazenados localmente no dispositivo.
+Essas métricas permitem acompanhar o acesso ao aplicativo sem interferir no funcionamento dos favoritos, que continuam armazenados localmente no navegador.
 
 ---
 
-## 🔎 Fontes das informações
+🔎 Fontes das informações
 
 Sempre que possível, as informações do Guia são conferidas por meio de:
 
@@ -162,10 +211,9 @@ Essas fontes ajudam a manter as informações mais confiáveis e facilitam a con
 
 A relação das fontes utilizadas pode ser consultada em:
 
-[📋 CHECKLIST_FONTES.md](CHECKLIST_FONTES.md)
+"📋 CHECKLIST_FONTES.md" (CHECKLIST_FONTES.md)
 
 ---
-
 
 ⚠️ Importante
 
@@ -173,32 +221,37 @@ Este é um guia pessoal de indicações.
 
 A inclusão de um estabelecimento ou atração não representa vínculo comercial, publicidade contratada ou garantia dos serviços oferecidos.
 
-Horários, preços, programação, funcionamento, condições climáticas, marés e disponibilidade podem sofrer alterações.
+Informações como:
+
+- horários;
+- preços;
+- programação;
+- funcionamento;
+- condições climáticas;
+- marés;
+- disponibilidade;
+
+podem sofrer alterações.
 
 Antes da visita, consulte sempre o canal oficial do estabelecimento ou atração.
 
 ---
 
 <details>
-<summary><strong>📂 Estrutura técnica do projeto</strong></summary>
+<summary><strong>📂 Estrutura técnica do projeto</strong></summary><br>O Guia utiliza uma estrutura simples e leve:
 
-O Guia utiliza uma estrutura simples e leve:
+- "index.html" — estrutura principal;
+- "style.css" — identidade visual e responsividade;
+- "app.js" — busca, filtros, favoritos e interações;
+- "dados.js" — base de lugares;
+- "manifest.webmanifest" — configuração do PWA;
+- "sw.js" — cache e funcionamento offline;
+- "lugares.csv" — dados auxiliares;
+- "CHECKLIST_FONTES.md" — auditoria das fontes;
+- "venus-gata.jpeg" — identidade visual da Vênus;
+- arquivos de ícones utilizados pelo aplicativo.
 
-* `index.html` — estrutura principal;
-* `style.css` — identidade visual e responsividade;
-* `app.js` — busca, filtros, favoritos e interações;
-* `dados.js` — base de lugares;
-* `manifest.webmanifest` — configuração do PWA;
-* `sw.js` — cache e funcionamento offline;
-* `lugares.csv` — dados auxiliares;
-* `CHECKLIST_FONTES.md` — auditoria das fontes;
-* `venus-gata.jpeg` — identidade visual da Vênus;
-* ícones utilizados pelo aplicativo.
-
-</details>
-
-
----
+</details>---
 
 🚧 Projeto em evolução
 
@@ -208,15 +261,41 @@ Entre as evoluções previstas estão:
 
 - revisão contínua das indicações;
 - atualização das fontes;
-- melhorias de acessibilidade;
+- novas melhorias de acessibilidade;
 - aperfeiçoamento da experiência mobile;
 - acompanhamento das métricas de utilização;
-- inclusão de imagens reais do aplicativo;
-- demonstração curta do funcionamento do Guia.
+- inclusão de novas indicações conforme a evolução do Guia;
+- demonstração curta do funcionamento do aplicativo.
 
 A intenção é continuar evoluindo o projeto sem perder sua principal característica:
 
-ser simples, útil e fácil de acessar.
+«ser simples, útil e fácil de acessar.»
+
+---
+
+🎯 Decisões do projeto
+
+Algumas decisões foram tomadas propositalmente para manter o Guia adequado ao seu objetivo.
+
+Sem cadastro obrigatório
+
+O visitante pode utilizar o Guia imediatamente, sem criar conta ou fornecer dados pessoais.
+
+Estrutura leve
+
+Para uma aplicação de indicações, uma arquitetura simples atende à necessidade atual sem adicionar complexidade desnecessária.
+
+Experiência mobile
+
+O Guia foi pensado principalmente para pessoas que estão passeando ou viajando e utilizam o celular para consultar rapidamente onde ir.
+
+Acesso rápido à localização
+
+Os locais podem ser abertos diretamente no Google Maps, reduzindo etapas entre encontrar uma indicação e chegar ao destino.
+
+Fontes identificadas
+
+Sempre que possível, o Guia direciona o visitante para uma fonte oficial, site ou rede social do próprio estabelecimento.
 
 ---
 
@@ -226,8 +305,20 @@ Projeto pessoal desenvolvido por Priscilla Cahino.
 
 O Guia nasceu a partir de indicações que eu já compartilhava com amigos e visitantes e foi transformado em uma experiência digital também como parte do meu aprendizado e desenvolvimento na área de tecnologia.
 
+Além da programação, o projeto envolve decisões relacionadas a:
+
+- experiência do usuário;
+- organização da informação;
+- acessibilidade;
+- experiência mobile;
+- curadoria e validação de dados;
+- manutenção de conteúdo;
+- experiência do cliente.
+
 ---
 
-⭐ Guia Vênus
-
-Alguns cantos da Paraíba que eu conheço e indicaria para quem está chegando.
+<p align="center">
+  <strong>⭐ Guia Vênus</strong>
+</p><p align="center">
+  <em>Alguns cantos da Paraíba que eu conheço e indicaria para quem está chegando.</em>
+</p>
