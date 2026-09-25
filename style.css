@@ -411,11 +411,13 @@ h1{
   top:0;
   width:104px;
   height:104px;
-  border-radius:18px;
+  border-radius:22px;
   overflow:hidden;
-  border:2px solid rgba(255,255,255,.88);
-  box-shadow:0 6px 18px rgba(0,0,0,.28);
-  background:#fff
+  padding:4px;
+  box-sizing:border-box;
+  border:1px solid rgba(159,224,226,.28);
+  box-shadow:0 6px 18px rgba(4,52,59,.16),0 0 0 5px rgba(102,198,203,.07);
+  background:rgba(24,119,127,.22)
 }
 
 .venus-logo{
@@ -423,6 +425,7 @@ h1{
   height:100%;
   object-fit:cover;
   object-position:center;
+  border-radius:17px;
   display:block
 }
 

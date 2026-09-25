@@ -64,6 +64,8 @@ Revisão de consistência do Guia Vênus.
 | 54 | Acarajé da Edna JP | João Pessoa | [Abrir fonte](https://www.instagram.com/acarajedaednajp/) | Instagram |
 | 55 | Havana Gastrobar | João Pessoa | [Abrir fonte](https://www.instagram.com/havanagastrobar/) | Instagram |
 | 56 | Seu Pexera | João Pessoa | [Abrir fonte](https://www.instagram.com/seupexera?stkn=MXV2dWYyZXV5aThhOQ%3D%3D) | Instagram |
+| 57 | Nóis Comedoria | João Pessoa | [Abrir fonte](https://www.instagram.com/nois.comedoria?stkn=MWx5MGl6ZjVrb3R1MA%3D%3D) | Instagram |
+| 58 | Seu Antônio Bar | João Pessoa | [Abrir fonte](https://www.instagram.com/seuantoniobar?stkn=d2ZjeWN6dmg2cDNs) | Instagram |
 
 ## Observações da auditoria
 
@@ -71,6 +73,8 @@ Revisão de consistência do Guia Vênus.
 - Vila do Porto: `tipoLink` corrigido para Instagram; descrição reduzida a uma caracterização básica de bar/restaurante com programação cultural e musical.
 - Churrascaria Jacumã Grill: descrição preenchida de forma neutra como churrascaria/restaurante em Jacumã.
 - Seu Pexera: incluído como bar/restaurante em Manaíra, com o Instagram informado pela autora.
+- Nóis Comedoria: incluída como restaurante em Jardim Oceania, com proposta de cozinha regional e Instagram informado pela autora.
+- Seu Antônio Bar: incluído como bar/petiscaria/restaurante em Jardim Oceania, com Instagram informado pela autora.
 - Informações variáveis como horários, preços, programação, maré e disponibilidade devem ser confirmadas na fonte antes da visita.
 
 ## Fontes complementares usadas nesta revisão
@@ -78,3 +82,5 @@ Revisão de consistência do Guia Vênus.
 - Vila do Porto: Restaurant Guru e Instagram @vila_do_porto.
 - Churrascaria Jacumã Grill: Restaurant Guru e Tripadvisor.
 - Seu Pexera: Restaurant Guru e Instagram @seupexera.
+- Nóis Comedoria: Instagram @nois.comedoria e fonte pública de localização/cadastro do estabelecimento.
+- Seu Antônio Bar: Instagram @seuantoniobar, Linktree oficial e referência pública de localização.

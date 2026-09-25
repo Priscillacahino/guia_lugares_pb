@@ -1,4 +1,4 @@
-const CACHE="guia-venus-v12-2";
+const CACHE="guia-venus-v13";
 
 const ASSETS=[
   "./",
