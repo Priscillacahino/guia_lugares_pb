@@ -1,11 +1,13 @@
-const CACHE="guia-venus-v8";
+const CACHE="guia-venus-v10";
 
 const ASSETS=[
   "./",
   "index.html",
   "style.css",
+  "ux-venus.css",
   "dados.js",
   "app.js",
+  "ux-venus.js",
   "manifest.webmanifest",
   "icon-localizacao-192.png",
   "icon-localizacao-512.png",

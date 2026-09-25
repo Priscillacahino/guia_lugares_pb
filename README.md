@@ -1,4 +1,4 @@
-# 🌴 Guia Vênus — João Pessoa, Cabedelo e Conde
+﻿# 🌴 Guia Vênus — João Pessoa, Cabedelo e Conde
 
 > Um guia pessoal de lugares que eu conheço e indicaria para amigos e visitantes que vêm conhecer a Paraíba.
 
@@ -40,7 +40,7 @@ A ideia é facilitar o compartilhamento das indicações com visitantes, hósped
 
 Apesar dessa integração, o Guia mantém sua proposta original: ser uma **curadoria pessoal, gratuita e independente** de lugares que considero interessantes para conhecer na região.
 
-A presença de um estabelecimento no Guia não representa parceria comercial ou publicidade contratada.
+Os locais aparecem como indicações gratuitas e independentes de apoio ao visitante. O Guia não recebe pagamento, comissão, benefício ou contrapartida pela inclusão.
 
 ---
 
@@ -211,7 +211,7 @@ A relação das fontes utilizadas pode ser consultada em:
 
 Este é um **guia pessoal de indicações**.
 
-A inclusão de um estabelecimento ou atração não representa vínculo comercial, publicidade contratada ou garantia dos serviços oferecidos.
+A inclusão de um estabelecimento ou atração é gratuita e informativa. O Guia não recebe pagamento, comissão, benefício ou contrapartida pela inclusão e não garante os serviços oferecidos por terceiros.
 
 Informações como horários, preços, programação, funcionamento, condições climáticas, marés e disponibilidade podem sofrer alterações.
 

@@ -9,6 +9,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon-192.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="ux-venus.css?v=20260925">
 </head>
 <body>
 <header class="hero">
@@ -68,7 +69,7 @@
     </div>
   <div class="footer-warning">
     <strong>⚠️ Aviso</strong>
-    <p>Este guia funciona como um <strong>guia de indicações</strong>. A inclusão de um estabelecimento não representa vínculo comercial, publicidade contratada ou garantia dos serviços oferecidos.</p>
+    <p>Este é um <strong>guia gratuito de indicações independentes</strong>. O Guia não recebe pagamento, comissão, benefício ou contrapartida pela inclusão de estabelecimentos, serviços ou atrações.</p>
     <p>Informações como horários, valores, programação, condições climáticas, marés e disponibilidade podem mudar. Sempre consulte o canal oficial antes da visita.</p>
   </div>
   <div class="footer-links-note">Os links abrem os respectivos serviços, fontes oficiais ou redes sociais quando disponíveis.</div>
@@ -79,6 +80,7 @@
 
 <script src="dados.js"></script>
 <script src="app.js"></script>
+<script src="ux-venus.js?v=20260925"></script>
 <script>
 if("serviceWorker" in navigator){
   window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
