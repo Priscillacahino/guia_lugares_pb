@@ -1,4 +1,4 @@
-const CACHE="guia-venus-v11";
+const CACHE="guia-venus-v12-2";
 
 const ASSETS=[
   "./",
@@ -9,8 +9,6 @@ const ASSETS=[
   "app.js",
   "ux-venus.js",
   "manifest.webmanifest",
-  "icon-localizacao-192.png",
-  "icon-localizacao-512.png",
   "icon-192.png",
   "icon-512.png",
   "guia-venus-turista.jpg"
@@ -24,24 +22,18 @@ self.addEventListener("install",e=>e.waitUntil(
 
 self.addEventListener("activate",e=>e.waitUntil(
   caches.keys()
-    .then(keys=>Promise.all(
-      keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))
-    ))
+    .then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))))
     .then(()=>self.clients.claim())
 ));
 
 self.addEventListener("fetch",e=>{
   if(e.request.method!=="GET") return;
-
   const url=new URL(e.request.url);
-
-  // Links e recursos externos continuam sendo buscados diretamente na internet.
   if(url.origin!==self.location.origin) return;
 
   e.respondWith(
     caches.match(e.request).then(cached=>{
       if(cached) return cached;
-
       return fetch(e.request)
         .then(resp=>{
           if(resp && resp.ok){
@@ -50,13 +42,7 @@ self.addEventListener("fetch",e=>{
           }
           return resp;
         })
-        .catch(()=>{
-          // O index funciona como fallback apenas para navegaÃ§Ã£o.
-          if(e.request.mode==="navigate"){
-            return caches.match("index.html");
-          }
-          return Response.error();
-        });
+        .catch(()=>e.request.mode==="navigate" ? caches.match("index.html") : Response.error());
     })
   );
 });

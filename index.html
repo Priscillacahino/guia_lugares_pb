@@ -4,45 +4,44 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#0f5c66">
-  <meta name="description" content="Guia gratuito da VÃªnus casa de Praia - PB com indicaÃ§Ãµes em JoÃ£o Pessoa, Cabedelo e Conde: praias, restaurantes, bares, passeios e pontos turÃ­sticos.">
-  <title>Guia VÃªnus â€” JoÃ£o Pessoa, Cabedelo e Conde</title>
+  <meta name="description" content="Guia Vênus com indicações em João Pessoa, Cabedelo e Conde: praias, gastronomia, passeios, cultura e pontos turísticos.">
+  <meta property="og:title" content="Guia Vênus — João Pessoa, Cabedelo e Conde">
+  <meta property="og:description" content="Alguns cantos da Paraíba que a gente gosta e indicaria aos amigos.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://guia-lugares-pb.vercel.app/">
+  <meta property="og:image" content="https://guia-lugares-pb.vercel.app/guia-venus-turista.jpg">
+  <meta property="og:image:alt" content="Vênus turista em frente ao Farol do Cabo Branco, em João Pessoa">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Guia Vênus — João Pessoa, Cabedelo e Conde">
+  <meta name="twitter:description" content="Alguns cantos da Paraíba que a gente gosta e indicaria aos amigos.">
+  <meta name="twitter:image" content="https://guia-lugares-pb.vercel.app/guia-venus-turista.jpg">
+  <title>Guia Vênus — João Pessoa, Cabedelo e Conde</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon-192.png">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="ux-venus.css?v=20260925">
+  <link rel="stylesheet" href="style.css?v=20260925c">
+  <link rel="stylesheet" href="ux-venus.css?v=20260925c">
 </head>
 <body>
 <header class="hero">
   <div class="hero-inner brand-wrap">
-    <a class="venus-logo-link" href="https://www.instagram.com/venuscasadepraiapb/" target="_blank" rel="noopener" aria-label="Instagram da VÃªnus casa de Praia - PB">
-      <img class="venus-logo" src="guia-venus-turista.jpg" alt="Mascote da VÃªnus casa de Praia - PB">
+    <a class="venus-logo-link" href="https://www.instagram.com/venuscasadepraiapb/" target="_blank" rel="noopener" aria-label="Instagram da Vênus Casa de Praia - PB">
+      <img class="venus-logo" src="guia-venus-turista.jpg" alt="Vênus turista em frente ao Farol do Cabo Branco, em João Pessoa">
     </a>
-    <div class="eyebrow">VÃªnus casa de Praia - PB â€¢ Guia gratuito</div>
-    <h1>JoÃ£o Pessoa, Cabedelo & Conde</h1>
+    <div class="eyebrow">Vênus Casa de Praia - PB • Guia gratuito</div>
+    <h1>João Pessoa, Cabedelo & Conde</h1>
     <p class="subtitle">Praias, gastronomia, passeios e lugares para conhecer.</p>
     <a class="brand-handle" href="https://www.instagram.com/venuscasadepraiapb/" target="_blank" rel="noopener">@venuscasadepraiapb</a>
     <div class="toolbar">
       <div class="search">
-        <span aria-hidden="true">ðŸ”Ž</span>
-        <input
-          id="search"
-          type="search"
-          placeholder="Buscar praia, restaurante, passeio..."
-          autocomplete="off"
-          aria-label="Buscar lugares"
-        >
-        <button
-          id="clear"
-          title="Limpar filtros"
-          aria-label="Limpar busca e filtros"
-        >âœ•</button>
+        <span aria-hidden="true">🔎</span>
+        <input id="search" type="search" placeholder="Buscar praia, restaurante, passeio..." autocomplete="off" aria-label="Buscar lugares">
+        <button id="clear" title="Limpar filtros" aria-label="Limpar busca e filtros">✕</button>
       </div>
     </div>
   </div>
 </header>
 
 <main class="main">
-
   <section class="filters" aria-label="Filtros">
     <div class="select-wrap">
       <label for="cidade">Cidade</label>
@@ -55,7 +54,7 @@
   </section>
 
   <div class="actions">
-    <button id="favFilter" class="pill" aria-pressed="false">â˜… Meus favoritos</button>
+    <button id="favFilter" class="pill" aria-pressed="false">★ Meus favoritos</button>
     <button class="pill" onclick="clearAll()">Limpar filtros</button>
   </div>
 
@@ -64,23 +63,23 @@
 
   <div class="footer">
     <div class="footer-brand">
-      Uma seleÃ§Ã£o da <strong>VÃªnus casa de Praia - PB</strong> â€¢ JoÃ£o Pessoa, Cabedelo e Conde â€” PB<br>
+      Uma seleção da <strong>Vênus Casa de Praia - PB</strong> • João Pessoa, Cabedelo e Conde — PB<br>
       <a href="https://www.instagram.com/venuscasadepraiapb/" target="_blank" rel="noopener">@venuscasadepraiapb</a>
     </div>
-  <div class="footer-warning">
-    <strong>âš ï¸ Aviso</strong>
-    <p>Este Ã© um <strong>guia gratuito de indicaÃ§Ãµes independentes</strong>. O Guia nÃ£o recebe pagamento, comissÃ£o, benefÃ­cio ou contrapartida pela inclusÃ£o de estabelecimentos, serviÃ§os ou atraÃ§Ãµes.</p>
-    <p>InformaÃ§Ãµes como horÃ¡rios, valores, programaÃ§Ã£o, condiÃ§Ãµes climÃ¡ticas, marÃ©s e disponibilidade podem mudar. Sempre consulte o canal oficial antes da visita.</p>
-  </div>
-  <div class="footer-links-note">Os links abrem os respectivos serviÃ§os, fontes oficiais ou redes sociais quando disponÃ­veis.</div>
+    <div class="footer-warning">
+      <strong>⚠️ Aviso</strong>
+      <p>Este é um <strong>guia gratuito de indicações independentes</strong>. O Guia não recebe pagamento, comissão, benefício ou contrapartida pela inclusão de estabelecimentos, serviços ou atrações.</p>
+      <p>Informações como horários, valores, programação, condições climáticas, marés e disponibilidade podem mudar. Sempre consulte o canal oficial antes da visita.</p>
+    </div>
+    <div class="footer-links-note">Os links abrem os respectivos serviços, fontes oficiais ou redes sociais quando disponíveis.</div>
   </div>
 </main>
 
-<button id="install" class="install">ï¼‹ Instalar guia no celular</button>
+<button id="install" class="install">＋ Instalar guia no celular</button>
 
-<script src="dados.js"></script>
-<script src="app.js"></script>
-<script src="ux-venus.js?v=20260925"></script>
+<script src="dados.js?v=20260925c"></script>
+<script src="app.js?v=20260925c"></script>
+<script src="ux-venus.js?v=20260925c"></script>
 <script>
 if("serviceWorker" in navigator){
   window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));

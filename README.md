@@ -1,131 +1,68 @@
-﻿# 🌴 Guia Vênus — João Pessoa, Cabedelo e Conde
-
-> Um guia pessoal de lugares que eu conheço e indicaria para amigos e visitantes que vêm conhecer a Paraíba.
+# Guia Vênus 🐈‍⬛ 🌴📍
 
 <p align="center">
-  <a href="https://guia-lugares-pb.vercel.app/">
-    <strong>🌐 Acessar o Guia Vênus</strong>
-  </a>
+  <img src="./guia-venus-turista.jpg" alt="Vênus turista em frente ao Farol do Cabo Branco, em João Pessoa" width="460">
+</p>
+
+<p align="center">
+  <strong>Alguns cantos da Paraíba que a gente gosta e indicaria aos amigos. 🌴☀️</strong>
 </p>
 
 ---
 
-## 💡 Como surgiu o Guia
+## Sobre
 
-O **Guia Vênus** nasceu de uma situação simples: amigos de outros estados que vinham conhecer João Pessoa frequentemente me perguntavam onde ir, quais praias conhecer, onde comer e quais lugares eu indicaria durante a viagem.
+O **Guia Vênus** nasceu de uma situação simples: amigos de outros estados que vinham conhecer João Pessoa frequentemente perguntavam onde ir, quais praias conhecer, onde comer e quais lugares valiam a visita.
 
-Em vez de repetir as mesmas indicações individualmente, resolvi reunir em um único lugar alguns dos cantos que conheço e considero interessantes.
+Em vez de repetir as mesmas indicações individualmente, o projeto reúne em um único lugar uma **curadoria pessoal, gratuita e independente** de praias, restaurantes, bares, passeios, cultura e pontos turísticos em **João Pessoa, Cabedelo e Conde**.
 
-A proposta não é criar um catálogo completo de turismo.
-
-O Guia é uma **curadoria pessoal de lugares que eu conheço e indicaria para amigos e visitantes**.
-
-Atualmente, a seleção reúne indicações em:
-
-- 📍 João Pessoa
-- 📍 Cabedelo
-- 📍 Conde
-
-Entre as sugestões estão praias, restaurantes, bares, passeios, gastronomia, cultura e pontos turísticos.
+A proposta não é ser um catálogo completo de turismo, nem substituir os canais oficiais dos locais. É um guia simples para ajudar quem está chegando a encontrar ideias e seguir para a fonte original antes da visita.
 
 ---
 
 ## 🏠 Guia Vênus e Vênus Casa de Praia - PB
 
-Com a evolução do projeto, o Guia também passou a ser utilizado como um recurso complementar da **Vênus Casa de Praia - PB**.
-
-A ideia é facilitar o compartilhamento das indicações com visitantes, hóspedes e pessoas que acompanham o perfil da casa.
+O Guia também funciona como um recurso complementar da **Vênus Casa de Praia - PB**, facilitando o compartilhamento de indicações com hóspedes, visitantes e pessoas que acompanham o perfil da casa.
 
 📱 Instagram: [@venuscasadepraiapb](https://www.instagram.com/venuscasadepraiapb/)
 
-Apesar dessa integração, o Guia mantém sua proposta original: ser uma **curadoria pessoal, gratuita e independente** de lugares que considero interessantes para conhecer na região.
-
-Os locais aparecem como indicações gratuitas e independentes de apoio ao visitante. O Guia não recebe pagamento, comissão, benefício ou contrapartida pela inclusão.
+Essa relação não altera a independência das indicações: os estabelecimentos, atrações e serviços listados não pagam pela inclusão e não são apresentados como parceiros do Guia, salvo quando isso for informado de forma expressa.
 
 ---
 
 ## 📱 O que é possível fazer
 
-O Guia foi pensado principalmente para utilização pelo celular.
+O Guia foi pensado principalmente para uso pelo celular e permite:
 
-Atualmente é possível:
-
-- 🔎 pesquisar lugares por nome, região, perfil ou descrição;
-- 📍 filtrar por cidade;
-- 🏖️ filtrar por categoria;
-- ⭐ salvar lugares favoritos;
-- 📖 visualizar detalhes de cada indicação;
-- 🗺️ abrir a localização diretamente no Google Maps;
-- 🔗 acessar sites, fontes oficiais ou redes sociais;
-- 📲 instalar o Guia como PWA em dispositivos compatíveis;
-- 📴 consultar o conteúdo principal offline após o primeiro carregamento.
+- pesquisar lugares por nome, região, perfil ou descrição;
+- filtrar por cidade e categoria;
+- salvar favoritos no próprio navegador;
+- visualizar detalhes de cada indicação;
+- abrir a localização no Google Maps;
+- acessar sites, fontes oficiais ou redes sociais;
+- alternar a interface entre português e espanhol;
+- instalar o Guia como PWA em dispositivos compatíveis;
+- consultar o conteúdo principal offline após o primeiro carregamento.
 
 Tudo isso sem exigir cadastro ou login.
 
 ---
 
-## 🗺️ Lugares
+## 🗺️ Como as indicações são organizadas
 
-O Guia reúne indicações distribuídas entre **João Pessoa, Cabedelo e Conde**.
+Sempre que possível, cada indicação possui localização, descrição curta, categoria, perfil, Google Maps e uma fonte ou rede social.
 
-Sempre que possível, cada indicação possui:
+A seleção pode crescer conforme novos lugares forem conhecidos, visitados ou considerados interessantes para o Guia.
 
-- localização;
-- breve descrição;
-- categoria;
-- perfil da indicação;
-- acesso ao Google Maps;
-- site, fonte oficial ou rede social.
+Entre as inclusões recentes está o **Seu Pexera**, em Manaíra:
 
-A seleção pode continuar crescendo conforme novos lugares forem conhecidos, visitados ou considerados interessantes para o Guia.
-
----
-
-## 📸 Conheça o Guia
-
-O Guia foi desenvolvido pensando principalmente na utilização pelo celular.
-
-### 📱 Tela inicial
-
-A tela inicial reúne busca, filtros por cidade e categoria, favoritos e acesso às indicações cadastradas.
-
-<p align="center">
-  <img src="docs/imagens/guia-tela-inicial.png" width="320" alt="Tela inicial do Guia Vênus">
-</p>
-
----
-
-### 🔎 Busca e filtros
-
-É possível combinar cidade e categoria para encontrar rapidamente os lugares desejados.
-
-No exemplo abaixo, o Guia apresenta resultados relacionados às praias de Conde.
-
-<p align="center">
-  <img src="docs/imagens/guia-busca-filtros.png" width="320" alt="Busca e filtros do Guia Vênus">
-</p>
-
----
-
-### 📍 Detalhes, favoritos e localização
-
-Cada indicação pode apresentar descrição, localização, fonte oficial ou rede social.
-
-Também é possível marcar lugares como favoritos e abrir a localização diretamente no Google Maps.
-
-<p align="center">
-  <img src="docs/imagens/guia-detalhes-favorito.png" width="320" alt="Detalhes de um lugar no Guia Vênus">
-</p>
+📱 [@seupexera](https://www.instagram.com/seupexera?stkn=MXV2dWYyZXV5aThhOQ%3D%3D)
 
 ---
 
 ## 🌐 Aplicativo leve e instalável
 
-O Guia foi desenvolvido como uma **Progressive Web App (PWA)**.
-
-Isso permite que ele funcione diretamente pelo navegador e, em dispositivos compatíveis, também possa ser instalado na tela inicial do celular.
-
-A proposta foi manter o projeto simples e leve, sem exigir publicação em uma loja de aplicativos.
+O Guia foi desenvolvido como uma **Progressive Web App (PWA)**. Ele funciona diretamente pelo navegador e, em dispositivos compatíveis, pode ser instalado na tela inicial do celular.
 
 🔗 [Acessar o Guia Vênus](https://guia-lugares-pb.vercel.app/)
 
@@ -133,49 +70,47 @@ A proposta foi manter o projeto simples e leve, sem exigir publicação em uma l
 
 ## 📴 Funcionamento offline
 
-Após o primeiro acesso, os principais arquivos do Guia podem ficar armazenados em cache.
+Após o primeiro acesso, os principais arquivos do Guia podem ficar armazenados em cache. Assim, parte do conteúdo continua disponível quando a conexão estiver limitada ou indisponível.
 
-Isso permite que parte do conteúdo continue disponível mesmo quando a conexão com a internet estiver limitada ou indisponível.
-
-Recursos externos, como Google Maps, Instagram, sites oficiais e outras fontes, continuam dependendo de conexão com a internet.
+Google Maps, Instagram, sites oficiais e outras fontes externas continuam dependendo de internet.
 
 ---
 
 ## ⭐ Favoritos
 
-Os lugares marcados como favoritos são armazenados localmente no navegador.
+Os favoritos são armazenados localmente no navegador. Não é necessário criar conta e eles não são sincronizados automaticamente entre aparelhos diferentes.
 
-Isso significa que:
-
-- não é necessário criar uma conta;
-- nenhum cadastro é exigido;
-- os favoritos permanecem no navegador utilizado;
-- os favoritos não são sincronizados entre aparelhos diferentes.
-
-Essa escolha mantém o Guia simples e evita a necessidade de armazenar dados pessoais dos usuários.
+Essa escolha mantém o Guia simples e evita a necessidade de armazenar dados pessoais dos visitantes.
 
 ---
 
-## ♿ Acessibilidade
+## ♿ Acessibilidade e experiência
 
-O projeto também recebe melhorias voltadas à acessibilidade.
+O projeto inclui navegação por teclado, foco visual, identificação adequada de controles, estado acessível dos favoritos, áreas de toque adequadas, suporte à preferência de redução de movimento, menu responsivo e interface em português e espanhol.
 
-Entre os recursos implementados estão:
+---
 
-- identificação adequada de campos de formulário;
-- navegação por teclado;
-- indicação do estado dos favoritos;
-- botão acessível para abrir e fechar os detalhes;
-- foco visual durante a navegação por teclado;
-- suporte à preferência de redução de movimento do dispositivo.
+## 🔎 Fontes das informações
 
-As melhorias de acessibilidade continuam fazendo parte da evolução do projeto.
+Sempre que possível, as informações são conferidas em páginas oficiais de turismo, prefeituras, sites dos próprios locais e redes sociais dos estabelecimentos e atrações.
+
+A relação utilizada na revisão do conteúdo pode ser consultada em:
+
+[📋 CHECKLIST_FONTES.md](CHECKLIST_FONTES.md)
+
+Algumas referências públicas abrangem um município ou conjunto de atrativos, e não necessariamente uma página individual para cada local. Horários, preços, programação, condições de acesso, marés e disponibilidade podem mudar; confirme essas informações na fonte antes da visita.
+
+---
+
+## ⚠️ Importante
+
+O **Guia Vênus** é um guia pessoal de indicações. A inclusão de um estabelecimento ou atração é gratuita e informativa.
+
+O Guia não realiza reservas, não recebe pagamentos, não cobra comissão pela indicação e não garante serviços oferecidos por terceiros.
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
-
-O projeto utiliza uma estrutura propositalmente simples e leve:
 
 - HTML5
 - CSS3
@@ -186,57 +121,22 @@ O projeto utiliza uma estrutura propositalmente simples e leve:
 - LocalStorage
 - Vercel
 
-A escolha por essa arquitetura faz parte da própria proposta do Guia: oferecer uma experiência rápida e funcional sem exigir uma estrutura complexa para uma necessidade simples.
-
----
-
-## 🔎 Fontes das informações
-
-Sempre que possível, as informações do Guia são conferidas por meio de:
-
-1. páginas oficiais de turismo;
-2. sites de prefeituras e outros órgãos públicos;
-3. sites oficiais dos locais indicados;
-4. redes sociais dos próprios estabelecimentos.
-
-Essas fontes ajudam a manter as informações mais confiáveis e facilitam a consulta antes da visita.
-
-A relação das fontes utilizadas pode ser consultada em:
-
-[📋 CHECKLIST_FONTES.md](CHECKLIST_FONTES.md)
-
----
-
-## ⚠️ Importante
-
-Este é um **guia pessoal de indicações**.
-
-A inclusão de um estabelecimento ou atração é gratuita e informativa. O Guia não recebe pagamento, comissão, benefício ou contrapartida pela inclusão e não garante os serviços oferecidos por terceiros.
-
-Informações como horários, preços, programação, funcionamento, condições climáticas, marés e disponibilidade podem sofrer alterações.
-
-Antes da visita, consulte sempre o canal oficial do estabelecimento ou atração.
-
----
-
 <details>
 <summary><strong>📂 Estrutura técnica do projeto</strong></summary>
 
 <br>
 
-O Guia utiliza uma estrutura simples e leve:
-
 - `index.html` — estrutura principal;
-- `style.css` — identidade visual e responsividade;
+- `style.css` — estilos e responsividade;
+- `ux-venus.css` — melhorias complementares de interface;
 - `app.js` — busca, filtros, favoritos e interações;
-- `dados.js` — base de lugares;
+- `ux-venus.js` — camada de experiência e idioma;
+- `dados.js` — base principal utilizada pelo aplicativo;
+- `lugares.csv` — cópia tabular sincronizada da base;
 - `manifest.webmanifest` — configuração do PWA;
 - `sw.js` — cache e funcionamento offline;
-- `lugares.csv` — dados auxiliares;
-- `CHECKLIST_FONTES.md` — auditoria das fontes;
-- `venus-gata.jpeg` — identidade visual da Vênus;
-- `docs/imagens/` — imagens utilizadas na documentação;
-- arquivos de ícones utilizados pelo aplicativo.
+- `CHECKLIST_FONTES.md` — acompanhamento das fontes;
+- `guia-venus-turista.jpg` — identidade visual atual do Guia.
 
 </details>
 
@@ -244,46 +144,7 @@ O Guia utiliza uma estrutura simples e leve:
 
 ## 🚧 Projeto em evolução
 
-O Guia Vênus continua recebendo melhorias.
-
-Entre as evoluções previstas estão:
-
-- revisão contínua das indicações;
-- atualização das fontes;
-- novas melhorias de acessibilidade;
-- aperfeiçoamento da experiência mobile;
-- inclusão de novas indicações conforme a evolução do Guia;
-- demonstração curta do funcionamento do aplicativo.
-
-A intenção é continuar evoluindo o projeto sem perder sua principal característica:
-
-> **Ser simples, útil e fácil de acessar.**
-
----
-
-## 🎯 Decisões do projeto
-
-Algumas decisões foram tomadas propositalmente para manter o Guia adequado ao seu objetivo.
-
-### Sem cadastro obrigatório
-
-O visitante pode utilizar o Guia imediatamente, sem criar conta ou fornecer dados pessoais.
-
-### Estrutura leve
-
-Para uma aplicação de indicações, uma arquitetura simples atende à necessidade atual sem adicionar complexidade desnecessária.
-
-### Experiência mobile
-
-O Guia foi pensado principalmente para pessoas que estão passeando ou viajando e utilizam o celular para consultar rapidamente onde ir.
-
-### Acesso rápido à localização
-
-Os locais podem ser abertos diretamente no Google Maps, reduzindo etapas entre encontrar uma indicação e chegar ao destino.
-
-### Fontes identificadas
-
-Sempre que possível, o Guia direciona o visitante para uma fonte oficial, site ou rede social do próprio estabelecimento.
+O Guia continua recebendo revisões de conteúdo, atualização de fontes, melhorias de acessibilidade e ajustes na experiência mobile, sem perder a proposta de ser **simples, útil e fácil de acessar**.
 
 ---
 
@@ -291,24 +152,15 @@ Sempre que possível, o Guia direciona o visitante para uma fonte oficial, site 
 
 Projeto pessoal desenvolvido por **Priscilla Cahino**.
 
-O Guia nasceu a partir de indicações que eu já compartilhava com amigos e visitantes e foi transformado em uma experiência digital também como parte do meu aprendizado e desenvolvimento na área de tecnologia.
-
-Além da programação, o projeto envolve decisões relacionadas a:
-
-- experiência do usuário;
-- organização da informação;
-- acessibilidade;
-- experiência mobile;
-- curadoria e validação de dados;
-- manutenção de conteúdo;
-- experiência do cliente.
+Além da programação, o projeto envolve experiência do usuário, organização da informação, acessibilidade, curadoria, validação de dados, manutenção de conteúdo e experiência do cliente.
 
 ---
 
 <p align="center">
-  <strong>⭐ Guia Vênus</strong>
+  <strong>Guia Vênus 🐈‍⬛</strong><br>
+  <em>Um jeito simples de compartilhar alguns cantos da Paraíba com quem está chegando.</em>
 </p>
 
-<p align="center">
-  <em>Alguns cantos da Paraíba que eu conheço e indicaria para quem está chegando.</em>
-</p>
+---
+
+**Desenvolvido por Priscilla Cahino**
