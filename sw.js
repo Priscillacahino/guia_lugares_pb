@@ -1,4 +1,4 @@
-const CACHE="guia-venus-v10";
+const CACHE="guia-venus-v11";
 
 const ASSETS=[
   "./",
@@ -13,7 +13,7 @@ const ASSETS=[
   "icon-localizacao-512.png",
   "icon-192.png",
   "icon-512.png",
-  "venus-gata.jpeg"
+  "guia-venus-turista.jpg"
 ];
 
 self.addEventListener("install",e=>e.waitUntil(
@@ -51,7 +51,7 @@ self.addEventListener("fetch",e=>{
           return resp;
         })
         .catch(()=>{
-          // O index funciona como fallback apenas para navegação.
+          // O index funciona como fallback apenas para navegaÃ§Ã£o.
           if(e.request.mode==="navigate"){
             return caches.match("index.html");
           }
