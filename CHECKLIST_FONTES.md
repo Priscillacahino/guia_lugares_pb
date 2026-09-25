@@ -2,8 +2,8 @@
 
 Revisão de consistência do Guia Vênus.
 
-- Registros na base: **56**
-- Registros com site, fonte ou rede social cadastrada: **56/56**
+- Registros na base: **58**
+- Registros com site, fonte ou rede social cadastrada: **58/58**
 - Ter um link cadastrado não significa que exista uma página oficial específica para cada atrativo.
 
 | # | Lugar | Cidade | Fonte/rede cadastrada | Tipo |

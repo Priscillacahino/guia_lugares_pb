@@ -54,9 +54,7 @@ Sempre que possível, cada indicação possui localização, descrição curta, 
 
 A seleção pode crescer conforme novos lugares forem conhecidos, visitados ou considerados interessantes para o Guia.
 
-Entre as inclusões recentes está o **Seu Pexera**, em Manaíra:
-
-📱 [@seupexera](https://www.instagram.com/seupexera?stkn=MXV2dWYyZXV5aThhOQ%3D%3D)
+As inclusões e revisões são registradas diretamente na base do projeto e no [📋 CHECKLIST_FONTES.md](CHECKLIST_FONTES.md), mantendo o README estável mesmo quando novos lugares são adicionados.
 
 ---
 
@@ -142,9 +140,9 @@ O Guia não realiza reservas, não recebe pagamentos, não cobra comissão pela 
 
 ---
 
-## 🚧 Projeto em evolução
+## ✅ Projeto concluído
 
-O Guia continua recebendo revisões de conteúdo, atualização de fontes, melhorias de acessibilidade e ajustes na experiência mobile, sem perder a proposta de ser **simples, útil e fácil de acessar**.
+A versão atual do **Guia Vênus** está funcionalmente concluída. A partir deste ponto, o projeto entra em **manutenção**, permitindo incluir novos lugares, atualizar links e revisar informações sem alterar a estrutura principal da aplicação.
 
 ---
 
